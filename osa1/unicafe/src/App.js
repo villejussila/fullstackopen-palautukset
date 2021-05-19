@@ -27,9 +27,8 @@ const Statistics = ({ good, bad, neutral, all, average, positive }) => {
 const StatisticLine = ({ text, value }) => {
   return (
     <tr>
-      <td>
-        {text} {value}
-      </td>
+      <td>{text}</td>
+      <td>{value}</td>
     </tr>
   );
 };
